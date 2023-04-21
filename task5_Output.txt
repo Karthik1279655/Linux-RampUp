@@ -1,0 +1,66 @@
+
+isLeEnabled(): ON
+Select the choice :
+1.Searching the given string
+2.Printing the given input
+3.Printing the number of times the string appears
+4.calculate the time between ON and OFF for a given keyword
+5.exit
+Enter the choice: 1
+string exist
+Select the choice :
+1.Searching the given string
+2.Printing the given input
+3.Printing the number of times the string appears
+4.calculate the time between ON and OFF for a given keyword
+5.exit
+Enter the choice: 2
+01-11 15:26:24.197  2850  4480 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:32.048  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:34.509  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:34.532  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:34.778  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:34.788  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:40.774  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:40.780  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:46.611  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:46.622  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:52.623  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+01-11 15:26:52.638  2850  4733 D BluetoothAdapter: isLeEnabled(): ON
+
+Select the choice :
+1.Searching the given string
+2.Printing the given input
+3.Printing the number of times the string appears
+4.calculate the time between ON and OFF for a given keyword
+5.exit
+Enter the choice: 3
+The number of times the string occured is : 12
+Select the choice :
+1.Searching the given string
+2.Printing the given input
+3.Printing the number of times the string appears
+4.calculate the time between ON and OFF for a given keyword
+5.exit
+Enter the choice: 4
+isLeEnabled(): OFF
+0:00:04.701000
+Select the choice :
+1.Searching the given string
+2.Printing the given input
+3.Printing the number of times the string appears
+4.calculate the time between ON and OFF for a given keyword
+5.exit
+Enter the choice: 5
+invalid choice

@@ -1,0 +1,15 @@
+#Task 1 - Getting maximum holiday months for given year other than early vacation 
+
+#output:
+
+January
+
+
+
+
+#Task 2 - Number of occurences of given character from input string 
+
+#output:
+
+3
+

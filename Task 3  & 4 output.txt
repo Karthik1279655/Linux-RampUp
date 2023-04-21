@@ -1,0 +1,44 @@
+
+
+#Task 3 (Marbles)
+
+no of emp_id:4
+emp_id:211723
+P Punyacharan
+marbles_earned: 23
+marbles_given:  13
+emp_id:211456
+Gunashree V
+marbles_earned: 19
+marbles_given:  12
+emp_id:206014
+Veerabharathi V
+marbles_earned: 43
+marbles_given:  20
+emp_id:206233
+Swaminathan Krishnan
+marbles_earned: 102
+marbles_given:  702
+Top given marbles:
+Swaminathan Krishnan
+102
+Veerabharathi V
+43
+P Punyacharan
+23
+Top earned marbles:
+Swaminathan Krishnan
+702
+Veerabharathi V
+20
+P Punyacharan
+13
+
+
+Task 4 (Password validation):
+
+Enter the password : Anusetty@8765,vinu,1234,$123,@123Anu ,@#$
+@123Anu 
+
+Enter the password : Anu@123,123,anu,anusettyyyy@1234,an ,@##$,@123,AnuVinu@#2
+Anu@123 AnuVinu@#2

@@ -1,0 +1,273 @@
+testing the software
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Testing is a group of techniques to determine the correctness of the application under the predefined script but, testing cannot find all the defect of application
+
+In software engineering, testing refers to the process of evaluating a software application or system to detect defects, errors, and other quality-related issues.
+ It involves running the software under controlled conditions and observing its behavior to determine whether it meets specified requirements and works as expected.
+Testing can be performed at various stages of the software development lifecycle, including unit testing, integration testing, system testing, acceptance testing, and regression testing.
+ Different types of testing techniques and methodologies can be used, such as black-box testing, white-box testing, gray-box testing, manual testing, automated testing, and performance testing.
+The ultimate goal of testing is to improve the quality of software by identifying and resolving defects and ensuring that the software meets the desired level of functionality, usability, reliability, security, and performance. 
+Testing is an essential part of software development and helps to minimize the risk of software failures, customer dissatisfaction, and financial losses.
+15-03-2023
+
+
+It is generally not possible to achieve 100% testing coverage in software testing because of the following reasons:
+    1. Time and cost constraints: Testing every possible combination of inputs and scenarios would require a significant amount of time and resources, making it impractical to test every single aspect of the software.
+    2. Complexity of the system: Software systems are often complex, with many different components and interactions between them. It is difficult to test every possible combination of these components and interactions, especially as the system grows in size and complexity.
+    3. Human error: Testers are also human, and they may make mistakes in designing and executing tests. Even with the most careful and thorough testing, it is possible for defects to slip through the cracks.
+    4. Lack of information: Testers may not have access to all of the information needed to fully test the system. For example, they may not know about all possible edge cases or scenarios that could cause issues.
+Therefore, instead of trying to achieve 100% testing coverage, testers aim to achieve sufficient testing coverage to identify the most critical defects and issues in the software. 
+
+
+Quality Assurance :
+
+1.Quality assurance prevents defects.
+2.Quality assurance is process oriented.
+3.Quality assurance is proactive in a process and preventive in nature.
+4.Quality assurance is a managerial tool.
+5.Each developer is responsible for quality assurance.
+
+Quality control :
+
+It is a reactive process, and the main purpose of this process is to correct all types of defects before releasing the software.
+
+Quality Control provides identification of defects.
+Quality Control is product oriented.
+Quality Control is a corrective tool.
+Testing team is responsible for Quality control.
+Quality Control is a reactive process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Static Testing(verification process) :
+
+-It checks the application without executing the code.
+-essential activities are done under static testing such as business requirement review, design review, code walkthroughs, and the test documentation review.
+-Static testing is performed in the white box testing phase, where the programmer checks every line of the code before handling over to the Test Engineer.
+-It can be done manually or with the help of tools to improve the quality of the application by finding the error at the early stage of development
+
+#Dynamic Testing(validation testing) :
+
+-It is done when the code is executed at the run time environment. 
+-It is a validation process where functional testing [unit, integration, and system testing] and non-functional testing [user acceptance testing] are performed.
+-To check whether the application or software is working fine during and after the installation of the application without any error.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+Types of software testing :
+
+1.Unit testing : It focuses on the smallest unit of software design.
+		Done by programmer using sample input by observing output (performed by the developers)
+		Unit testing is important because we can find more defects at the unit test level.
+				 
+				 
+Code coverage : It is an important part of unit testing where the test cases need to exist to cover the below three:
+
+i) Line coverage
+ii) Code path coverage
+iii) Method coverage
+				 
+ex : a) In a program we are checking if the loop, method, or 
+   function is working fine
+     b) Misunderstood or incorrect, arithmetic precedence.
+     c) Incorrect initialization
+	 
+Below 2 are types of manual testing :-
+a) White box testing : -technique which evaluates the code and the internal structure of a program.
+					   -involves looking at the structure of the code. 
+					   -used by both the developers as well as testers
+					   
+b)BlackBox Testing : we test the software from a user’s point of view,
+				   testing, we perform testing without seeing the internal system code
+
+2.Integration Testing : The objective is to take unit-tested components and build a program structure that has been dictated by design. 
+						 Integration testing is testing in which a group of components is combined to produce output.
+						 
+	Types :- (i) Top-down (ii) Bottom-up (iii) Sandwich (iv) Big-Bang 
+	
+
+3.Regression Testing : This type of testing makes sure that the whole component works properly even after adding components to the complete program. 
+					-Testing performed to ensure that adding new code, enhancements, fixing of bugs is not breaking the existing functionality or causing any instability and still works according to the specifications.
+
+	Example : In school, record suppose we have module staff, students and finance combining these modules and checking if on integration of these modules works                 fine in regression testing 
+
+
+4.Smoke Test(build verification testing) :This test is done to make sure that the software under testing is ready or stable for further testing ,It is called a 			smoke test as the testing of an initial pass is done to check if it did not catch the fire or smoke in the initial switch on. 
+
+	Example: If the project has 2 modules so before going to the module make sure that module 1 works properly
+	
+	
+5.Alpha Testing : This is a type of validation testing. It is a type of acceptance testing which is done before the product is released to customers. It is 						 typically done by QA people. 
+	Example: When software testing is performed internally within the organization
+	
+
+6. Beta Testing : The beta test is conducted at one or more customer sites by the end-user of the software. This version is released for a limited number of 					  users or testing in a real-time environment 
+				-he user�s comfort is derived from this and the feedback is taken. This is similar to that of User Acceptance testing.
+
+	Example: When software testing is performed for the limited  number of people
+	
+
+7.System testing : This software is tested to work for different operating system , we just focus on the required input and output without focusing on internal 				   working. 
+				   This includes functional as well as nonfunctional testing
+				   
+
+8. Stress Testing : In this, we give unfavorable conditions to the system and check how they perform in those conditions.
+	
+	Example: (a) Test cases that require maximum memory or other resources are executed
+			 (b) Test cases that may cause thrashing in a virtual operating system
+			 (c) Test cases that may cause excessive disk requirement
+			 
+9.Performance Testing :It is designed to test the run-time performance of software within the context of an integrated system. It is used to test the speed and 				       effectiveness of the program. It is also called load testing. In it we check, what is the performance of the system in the given load.
+
+	Example: Checking several processor cycles.
+	
+10.Object-Oriented Testing : This testing is a combination of various testing techniques that help to verify and validate object-oriented software. This testing 								is done in the following manner: 
+
+						-Testing of Requirements,
+						-Design and Analysis of Testing,
+						-Testing of Code,
+						-Integration testing,
+						-System testing,
+						-User Testing.
+
+11.Acceptance Testing : Acceptance testing is done by the customers to check whether the delivered products perform the  desired tasks or not, as stated in 							requirements. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Functional Testing :
+==================
+
+-Functional testing is a kind of black-box testing that is performed to confirm that the functionality of an application or system is behaving as expected.
+-each process includes testing the application by providing a set of inputs and determining or verifying the result/output by comparing the actual result with the expected results.
+-verify whether the application is ready to be released into the live environment or not.
+
+				Unit testing
+				Smoke testing
+				Integration testing
+				System testing
+				Usability testing
+				Regression testing
+				User Acceptance testing
+Testing based on requirements : Contains all the functional specifications which form a basis for all the tests to be conducted.
+Testing based on Business Scenarios : Contains the information about how the system will be perceived from a business process perspective
+
+
+Non_Functional Testing : 
+======================
+						1)Security Testing-
+						2) Performance Testing
+						3)Usasbility testing 
+						4) Compatibility testing
+						
+1. Security Testing :It is  done to check how the software, application, or website is secure from internal and/or external threats. 
+				penetration testing :it is performed as an authorized cyberattack on the system to find out the weak points of the system in terms of security.
+					ex:Ethical Hackers,like SQL injection, URL manipulation, Privilege Elevation, session expiry, and provide reports to the organization
+			should not perform on computer or laptop shud take permission to perform pen test 
+			
+			
+2.Performance Testing : It is testing of an application�s stability and response time by applying load.
+						Performance testing is done with the help of tools. Loader.IO, JMeter, LoadRunner, etc. are good tools available in the market.
+
+	a.Load Testing-Testing of an application�s stability and response time by applying load, which is equal to or less than the designed number of users for an 					application.
+	b.Stress Testing - testing an application�s stability and response time by applying load, which is more than the designed number of users for an application.
+	c.Scalability Testing -your application handles 1000 users at a time with a response time of 2 seconds, then scalability testing can be done by applying a 								load of more than 1000 users and gradually increasing the number of users to find out where exactly my application is crashing.
+		Let�s say my application is giving response time as follows:
+
+		 1000 users -2 sec
+		 1400 users -2 sec
+		 4000 users -3 sec
+		 5000 users -45 sec
+		 5150 users- crash � This is the point that needs to identify in scalability testing
+
+	d.Volume testing (flood testing) -Volume testing is testing an application�s stability and response time by transferring a large volume of data to the 								database. Basically, it tests the capacity of the database to handle the data.
+	e. Endurance Testing (Soak Testing)-Endurance testing is testing an application�s stability and response time by applying load continuously for a longer 											period to verify that the application is working fine.
+	    ex:For example, car companies soak testing to verify that users can drive cars continuously for hours without any problem.
+
+	
+3.usabillity Testing (#appearence ): Testing an application from the user�s perspective to check the look and feel and user-friendliness.
+	ex : The main idea of usability testing of this kind of app is that as soon as the user opens the app, the user should get a glance at the market.
+	
+	a) Exploratory testing - exploring app and finding defects,Testers use the knowledge of the business domain to test the application.
+	b) Cross browser testing - Cross browser testing is testing an application on different browsers, operating systems, mobile devices to see look and feel and 								performance.
+	c) Accessibility Testing - The aim of Accessibility Testing is to determine whether the software or application is accessible for disabled people or not.
+	
+4. Compatibility testing - This is a testing type in which it validates how software behaves and runs in a different environment, web servers, hardware, and 							  network environment.
+
+
+Software testing techniques : These are the ways employed to test the application under test against the functional or non-functional requirements gathered from 							    business.
+Types :-
+
+Static Testing Techniques: These are testing techniques which are used to find defects in Application under test without executing the code. Static Testing is done to avoid errors at an early stage of the development cycle and thus reducing the cost of fixing them.
+
+Dynamic Testing Techniques: These are testing techniques that are used to test the dynamic behavior of the application under test, that is by the execution of the code base.  The main purpose of dynamic testing is to test the application with dynamic inputs- some of which may be allowed as per requirement (Positive testing) and some are not allowed (Negative Testing).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test case Design : Test case design is a document that includes the test�s scope, the test strategy, the test environment, the software pieces for testing, the 				   intended test actions within the project, the resources, and a schedule.
+
+			After an engineer completes the test case planning process, the test case design process begins. This process includes
+
+			-preparing the test environment;
+			-writing test cases for integration, system, and acceptance testing; and
+			-preparing test procedures.
+
+
+Software Testing Metrics :These are the quantitative measures used to estimate the progress, quality, productivity and health of the software testing process. The goal of software testing metrics is to improve the efficiency and effectiveness in the software testing process and to help make better decisions for further testing process by providing reliable data about the testing process.
+
+
+User interface testing : User interface testing, a testing technique used to identify the presence of defects is a product/software under test by using Graphical 						   user interface [GUI].
+						-Websites comprise web elements created with CSS, JavaScript, and numerous other programming languages. UI testing performs tests and 							 assertions of these elements to validate their efficacy.
+						- It is focused on examining visual and structural parts of the software i.e., parts the user would be concerned with, rather than the 								internal logic of the software.
+		The Scope of UI Testing :-
+				Navigational elements
+				Data type errors
+				field width
+				Table scrolling
+				Menu Items
+				
+				
+
+
+
+API Testing : API testing is a type of software testing that analyzes an application program interface (API) to verify it fulfills its expected functionality, 				  security, performance and reliability. The tests are performed either directly on the API or as part of integration testing.
+
+Driver Testing : Test Drivers are used during Bottom-up integration testing in order to simulate the behaviour of the upper level modules that are not yet 		  				   integrated. 
+
+Automated testing : It is a process that validates if software is functioning appropriately and meeting requirements before it is released into production. This 					 software testing method uses scripted sequences that are executed by testing tools.
+
+
+A traceability matrix : It is a document that details the technical requirements for a given test scenario and its current state. It helps the testing team 							understand the level of testing that is done for a given product
+				
+				
+				
+------------------------------------------------------
+Test Case design: Preparing test  case design starts early stages of the software lifecycle. A test case design plan is sometimes a product or tool for performing necessary functions within a project�s scope.
+
+				Test Case Content
+				
+				A test case should include
+
+				the purpose and conditions for its execution,
+				a step-by-step setup of the test environment,
+				input data,
+				the expected result,
+				the actual result,
+				a version description of the software,
+				the software�s working environment, and
+				the test ID.
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
